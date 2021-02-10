@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
-    "google-translate-api-browser": "^1.1.51"
-  }
+    "google-translate-api-browser": "^1.1.51",
+    "snyk": "^1.448.0"
+  },
+  "snyk": true
 }
