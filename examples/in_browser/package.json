@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "license": "MIT",
   "devDependencies": {
@@ -12,6 +14,8 @@
   "dependencies": {
     "google-translate-api-browser": "^1.1.51",
     "querystring": "^0.2.0",
-    "typescript": "^3.3.3333"
-  }
+    "typescript": "^3.3.3333",
+    "snyk": "^1.448.0"
+  },
+  "snyk": true
 }
