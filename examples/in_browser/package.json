@@ -15,7 +15,7 @@
     "google-translate-api-browser": "^1.1.51",
     "querystring": "^0.2.0",
     "typescript": "^3.3.3333",
-    "snyk": "^1.448.0"
+    "snyk": "^1.465.0"
   },
   "snyk": true
 }
